@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.MainUI">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="693" height="480"/>
+    </constraints>
+    <properties>
+      <background color="-13285542"/>
+      <enabled value="true"/>
+      <foreground color="-3715543"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cc842" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285542"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="58cdf" class="javax.swing.JButton" binding="closeButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3715543"/>
+              <focusPainted value="false"/>
+              <font name="Montserrat SemiBold"/>
+              <foreground color="-1181185"/>
+              <text value="CLOSE"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f15e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="10" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3715543"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ecdc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Montserrat ExtraBold" size="16" style="0"/>
+              <foreground color="-1181185"/>
+              <text value="FOOD INSECURITY APP"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a29c3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="20" bottom="0" right="20"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13285542"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5aa8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1181185"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="d1ab5" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1181185"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="4975" class="javax.swing.JButton" binding="subscribeButton">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="250" height="150"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3715543"/>
+                      <borderPainted value="true"/>
+                      <focusPainted value="false"/>
+                      <font name="Montserrat SemiBold" size="16"/>
+                      <foreground color="-1181185"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="resources/profile-128.png"/>
+                      <text value="MANAGE ACCOUNT"/>
+                      <toolTipText value="Manage Profile"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="8ac5d" class="javax.swing.JButton" binding="templateButton">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="250" height="150"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3715543"/>
+                      <focusPainted value="false"/>
+                      <font name="Montserrat SemiBold" size="16"/>
+                      <foreground color="-1181185"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="resources/template-128.png"/>
+                      <text value="CREATE TEMPLATE"/>
+                      <toolTipText value="Create Template"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="d9959" class="javax.swing.JButton" binding="notifyButton">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="250" height="150"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3715543"/>
+                      <focusPainted value="false"/>
+                      <font name="Montserrat SemiBold" size="16"/>
+                      <foreground color="-1181185"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="resources/notify-128.png"/>
+                      <text value="SEND NOTIFICATION"/>
+                      <toolTipText value="Send Notification"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="7c7c2" class="javax.swing.JButton" binding="logButton">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="250" height="150"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-3715543"/>
+                      <focusPainted value="false"/>
+                      <font name="Montserrat SemiBold" size="16"/>
+                      <foreground color="-1181185"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="resources/log-128.png"/>
+                      <text value="VIEW LOG"/>
+                      <toolTipText value="View Notification Log"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

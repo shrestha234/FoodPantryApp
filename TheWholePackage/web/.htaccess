@@ -1,0 +1,14 @@
+#   This code will remove/hide the extension of the pages
+#   There are many reasons why we should hide extensions
+#   but the main reason is to make the URL look cleaner
+#   and it's also better/effective for SEO purposes.
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]

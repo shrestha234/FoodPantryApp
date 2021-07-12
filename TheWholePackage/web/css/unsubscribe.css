@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: #35475A;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.logo-container {
+    padding: 10px;
+    text-align: center;
+    background: #c74e29;
+}
+
+.logo-container img {
+    width: 150px;
+    height: auto;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 50px auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 275px;
+    width: 700px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.container input {
+    background: #eee;
+    margin: 5% 0 3% 0;
+    border: none;
+    padding: 12px 15px;
+    font-size: 100%;
+    width: 400px;
+}
+
+.container label {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100%;
+    color: #35475A;
+    letter-spacing: 1px;
+}
+
+button {
+    color: white;
+    min-width: 150px;
+    display: block;
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background-color: #C02020;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 75%;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    border-radius: 50px;
+}
+
+#unsubscribe-cancel {
+    background-color: #c74e29;
+}
+
+h4 {
+    letter-spacing: 1px;
+    color: #07BBD4;
+    margin: 0 auto;
+    border-bottom: 2px solid #c74e29;
+    width: 75%;
+    text-align: center;
+    font-size: 19px;
+}
+
+@media (max-width: 960px) {
+    .container{
+        width: 100%;
+        padding-bottom: 50px;
+        border-radius: 0;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container input{
+        width: 75%;
+    }
+
+    #unsubscribe-cancel,
+    #unsubscribe-button{
+        padding: 5px;
+    }
+}
